@@ -50,7 +50,7 @@ const Recentcard = () => {
               <div className="mt-2">
                 <div className='flex flex-row'>
                   <h3 className="text-lg font-medium">{album.title}</h3>
-                  <div className='ml-48 lg:ml-20 lg:mt-2'>
+                  <div className='ml-48 lg:ml-20 lg:mt-2' >
                     {hoveredIndex === index && <Player />}
                   </div>
                 </div>
