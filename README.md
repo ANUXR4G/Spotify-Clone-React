@@ -1,4 +1,7 @@
-# npm install
+# Install NPM
+```bash
+npm install
+```
 
 # install tailwind in project
 ```bash
