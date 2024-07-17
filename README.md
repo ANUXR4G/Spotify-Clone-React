@@ -1,3 +1,6 @@
+# Live Preview
+https://anuxr4g-spotify-clone-react.vercel.app/
+
 # Install NPM
 ```bash
 npm install
