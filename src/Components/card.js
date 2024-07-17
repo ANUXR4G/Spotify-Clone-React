@@ -41,7 +41,7 @@ const Card = () => {
         {albums.map((album, index) => (
           <div
             key={index}
-            className="p-2 lg:p-2 lg:w-60 sm:w-60"
+            className="p-2 w-full lg:p-2 lg:w-60 sm:w-60"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
@@ -50,7 +50,7 @@ const Card = () => {
               <div className="mt-2 flex flex-row">
                 <h3 className="text-lg font-medium">{album.title}</h3>
                 {hoveredIndex === index && (
-                  <div className='ml-20 mt-2'>
+                  <div className='ml-48 lg:ml-20 lg:mt-2'>
                     <Player />
                   </div>
                 )}

@@ -33,7 +33,7 @@ const AlbumCard = ({ album }) => {
           <h3>{album.title}</h3>
           {isHovered && (
             <Draggable>
-              <div className='ml-20'>
+              <div className=' ml-24 lg:ml-20'>
                 <Player />
               </div>
             </Draggable>

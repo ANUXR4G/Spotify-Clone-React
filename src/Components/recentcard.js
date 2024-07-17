@@ -46,11 +46,11 @@ const Recentcard = () => {
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <div className="bg-[#181818] p-4 rounded-md transition-transform transform hover:scale-95 hover:transition-all">
-              <img src={album.cover} alt={album.title} className="w-full h-48 object-cover rounded-s-full " />
+              <img src={album.cover} alt={album.title} className="w-full p-6 h-48 object-cover rounded-s-full " />
               <div className="mt-2">
                 <div className='flex flex-row'>
                   <h3 className="text-lg font-medium">{album.title}</h3>
-                  <div className='ml-20 mt-1'>
+                  <div className='ml-48 lg:ml-20 lg:mt-2'>
                     {hoveredIndex === index && <Player />}
                   </div>
                 </div>
