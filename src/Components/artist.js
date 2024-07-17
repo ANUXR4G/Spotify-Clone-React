@@ -25,7 +25,7 @@ const albums = [
 
 const Artist = () => {
   return (
-    <div className="bg-[#121212] text-white p-4 mb-20">
+    <div className="bg-[#121212] text-white p-4 mb-60">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold hover:underline">Your Favorite Artists</h2>
         <a href="#" className="text-sm text-gray-400">SEE ALL</a>
