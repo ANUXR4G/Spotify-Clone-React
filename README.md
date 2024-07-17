@@ -25,4 +25,3 @@ module.exports = {<br>
 
 # npm i react-router-dom
 
-# npm i @iyaroslav/play-pause-button
