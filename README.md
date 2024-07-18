@@ -1,12 +1,5 @@
 # Live Preview
-### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="[https://varadbhogayata.github.io" target="_blank](https://anuxr4g-spotify-clone-react.vercel.app/
-)"><img src="examples/preview.gif">
-  </a>
-  </kbd>
-</p>
+https://anuxr4g-spotify-clone-react.vercel.app/
 
 # Install NPM
 ```bash
