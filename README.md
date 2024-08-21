@@ -28,7 +28,7 @@ Use the link down below to check out the clone:
 The deployment is done using Vercel.
 
 ## ✏️ Author
-Anurag Ahirwar
+Anurag Nanda
 
 ## 🔑 License
 This project is licensed under the MIT License - see the LICENSE file for details
