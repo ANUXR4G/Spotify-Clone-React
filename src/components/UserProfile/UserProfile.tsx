@@ -49,7 +49,7 @@ const UserProfile = () => {
                         </div>
                         {!sm && (
                             <>
-                                <Text size="sm" weight="bold">Arvindra</Text>
+                                <Text size="sm" weight="bold">Anurag</Text>
                                 <div className="mr-2">
                                     <ChevronDown size={20} />
                                 </div>
